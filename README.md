@@ -7,7 +7,7 @@ Pocket CLI for personal use (tired of sending links to phone through Chrome or P
 $ python3 setup.py
 ```
 
-# Before Install
+# How to Use
 
 First, you must run CONFIG
 
