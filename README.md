@@ -3,12 +3,16 @@ Pocket CLI for personal use (tired of sending links to phone through Chrome or P
 
 # Before Install
 
-First, you must have 2 env keys in your system.
+First, you must run CONFIG
 
 ```
-$ export POCKET_CONSUMER_KEY="your-consumer-key"
+$ pocket-cli config
+```
 
-$ export POCKET_ACCESS_TOKEN="your-access-token"
+This will prompt for two thing, your *CONSUMER_KEY* and your *ACCESS_TOKEN*, after that you can just run
+
+```
+$ pocket-cli add <'url'>
 ```
 
 If you don't know your access token get it here with your Consumer Key -> [Get Access Token](http://reader.fxneumann.de/plugins/oneclickpocket/auth.php)

@@ -17,6 +17,7 @@ setup(
     install_requires = [
         "Click",
         "pocket-api",
+        "requests"
     ],
 
     entry_points={
