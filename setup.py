@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="pocket-cli",
+    name="pocketcli",
     version="0.1",
     author="Juan Latorre",
     author_email="juanlatorre@protonmail.com",
@@ -22,7 +22,7 @@ setup(
 
     entry_points={
         "console_scripts": [
-            "pocket-cli=pocketcli.app:main"
+            "pocketcli=pocketcli.app:main"
         ]
     }
 )
