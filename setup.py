@@ -2,10 +2,10 @@ from setuptools import setup, find_packages
 
 setup(
     name="pocketcli",
-    version="0.1",
+    version="0.2",
     author="Juan Latorre",
     author_email="juanlatorre@protonmail.com",
-    url="https://github.com/juanlatorre/pocket-cli",
+    url="https://github.com/juanlatorre/pocketcli",
 
     license="LICENSE",
     description="Pocket Cli app through command line",
@@ -24,5 +24,10 @@ setup(
         "console_scripts": [
             "pocketcli=pocketcli.app:main"
         ]
-    }
+    },
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
 )
